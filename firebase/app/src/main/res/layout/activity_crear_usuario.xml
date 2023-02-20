@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CrearUsuario">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="264dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/_721113" />
+
+    <EditText
+        android:id="@+id/Cmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/edit_text_rounded"
+        android:backgroundTint="#00DC1E1E"
+        android:backgroundTintMode="add"
+        android:ems="10"
+        android:hint="e-mail"
+        android:inputType="textEmailAddress"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="20dp"/>
+
+    <EditText
+        android:id="@+id/Ccontra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/edit_text_rounded"
+        android:backgroundTint="#00DC1E1E"
+        android:backgroundTintMode="add"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="20dp"/>
+
+    <EditText
+        android:id="@+id/Ccontra2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/edit_text_rounded"
+        android:backgroundTint="#00DC1E1E"
+        android:backgroundTintMode="add"
+        android:ems="10"
+        android:hint="Confirmar contraseña"
+        android:inputType="textPassword"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="20dp"/>
+
+    <Button
+        android:id="@+id/creaUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/button_rounded"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:text="crear"
+        />
+
+</LinearLayout>

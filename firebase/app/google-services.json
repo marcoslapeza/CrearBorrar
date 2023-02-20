@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "937140871562",
+    "project_id": "marcosfirebase-5243d",
+    "storage_bucket": "marcosfirebase-5243d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937140871562:android:fc7227dabd6460d07a2873",
+        "android_client_info": {
+          "package_name": "www.iesmurgi.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937140871562-2vp3d5gtihape95mo4geuhd5bpdia5kr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "www.iesmurgi.firebase",
+            "certificate_hash": "83ef25e7e842a629be25b5085ab602808d0a0c4f"
+          }
+        },
+        {
+          "client_id": "937140871562-p2kgufjpibc2p0q9o5s9nj62c6g6ok2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXVr0mZwmyFc7kOcXU1LdsI7czrtqn1WI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "937140871562-p2kgufjpibc2p0q9o5s9nj62c6g6ok2f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
